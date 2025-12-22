@@ -1,0 +1,1 @@
+This application is used to email wellness suggestions to the user, to help them feel more motivated and provide a suggestion for how they can improve their wellness.
