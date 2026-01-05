@@ -1,0 +1,8 @@
+<section id="thumbnails" class="thumbnails">
+    <div class="grid">
+    <div class="card" *ngFor="let item of items">
+        <img [src]="item.image" alt="Thumbnail">
+        <h3>{{item.title}}</h3>
+    </div>
+    </div>
+</section>

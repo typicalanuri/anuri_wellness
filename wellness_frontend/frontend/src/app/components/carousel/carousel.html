@@ -1,0 +1,11 @@
+<section id="carousel" class="carousel">
+    <ngb-carousel *ngIf="slides">
+    <ng-template ngbSlide *ngFor="let slide of slides">
+        <img [src]="slide.image" alt="Slide" />
+        <div class="carousel-caption">
+        <h3>{{slide.title}}</h3>
+        <p>{{slide.description}}</p>
+        </div>
+    </ng-template>
+    </ngb-carousel>
+</section>

@@ -1,0 +1,11 @@
+<section class="hero" id="hero">
+    <div class="hero-content">
+    <h1>Join Our WellnessCommunity</h1>
+    <p>Subscribe for daily wellness tips</p>
+    <mat-form-field appearance="fill" class="email-input">
+        <mat-label>Email</mat-label>
+        <input matInput [(ngModel)]="email" placeholder="Enter your email">
+    </mat-form-field>
+    <button mat-raised-button color="accent" (click)="submitEmail()">Subscribe</button>
+    </div>
+</section>

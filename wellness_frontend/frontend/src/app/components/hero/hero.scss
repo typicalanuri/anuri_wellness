@@ -1,0 +1,16 @@
+.hero {
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+}
+.hero-content { 
+    max-width: 600px; 
+}
+.email-input { 
+    width: 100%; 
+    margin: 16px 0; 
+}
